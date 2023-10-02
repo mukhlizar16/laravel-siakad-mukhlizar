@@ -67,7 +67,7 @@
                                                     <td>{{ $user->roles }}</td>
                                                     <td>{{ $user->address }}</td>
                                                     <td>{{ $user->format_tanggal }}</td>
-                                                    <td>
+                                                    <td class="text-nowrap">
                                                         <a href="{{ route('users.edit', $user) }}"
                                                             class="btn btn-sm btn-icon btn-primary">
                                                             <i class="fa fa-pencil"></i>
